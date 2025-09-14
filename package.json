@@ -1,0 +1,24 @@
+{
+  "name": "recipeapp",
+  "version": "1.0.0",
+  "description": "\"Recipe_app\"",
+  "keywords": [
+    "\"test_app_using_postman\""
+  ],
+  "homepage": "https://github.com/Jayasridhara/Recipe_App#readme",
+  "bugs": {
+    "url": "https://github.com/Jayasridhara/Recipe_App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayasridhara/Recipe_App.git"
+  },
+  "license": "ISC",
+  "author": "Jayasridhara",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"Ingrident,Recipe_title,instructions\"",
+    "start": "node server.js"
+  }
+}
