@@ -8,10 +8,12 @@
     mongoose.connect(process.env.MONGODB_URI)
     .then(()=>{
         console.log("connect to MongoDB");
-        app.listen(PORT,'localhost',()=>{
-        console.log(`server is running on http://localhost:8001`)
-    });
+    
 
 
     })
-    .catch((err)=>console.log("could not connext"))
+    .catch((err)=>console.log("could not connext"));
+
+    app.listen(PORT,'localhost',()=>{
+        console.log(`server is running on http://localhost:8001`)
+    });
