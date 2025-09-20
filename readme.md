@@ -1,5 +1,7 @@
 # Recipes API
-
+ Postman Document
+ https://documenter.getpostman.com/view/41728894/2sB3HroJqv
+ 
 A simple CRUD API for managing recipes, built with Node.js, Express.js, and Mongoose (MongoDB).
 
 ## Features
@@ -311,8 +313,7 @@ Example:http://localhost:8001/recipe/68ccdea2ec0bf412354cf47e
     ```
 
 
- Postman Document
- https://documenter.getpostman.com/view/41728894/2sB3HroJqv
+
 
 
 
