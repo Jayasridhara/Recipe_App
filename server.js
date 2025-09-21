@@ -14,6 +14,6 @@
     })
     .catch((err)=>console.log("could not connext"));
 
-    app.listen(PORT,'localhost',()=>{
+    app.listen(PORT,()=>{
         console.log(`server is running on http://localhost:8001`)
     });
